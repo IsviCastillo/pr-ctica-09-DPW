@@ -50,6 +50,9 @@ body{
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid rgb(29, 31, 37);
+    display:flex;
+    justify-content:center;
+    
 }
 
 .newsletter{
