@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zephyrnaut</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <a class="navbar-brand" href="#">Zephyrnaut</a>
+    <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="menu">
+    <span class="navbar-toggle--icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="menu">
+    <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Tecnologia</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Plataformas</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Ventajas Estrategicas</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Seguridad Nacional</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+    </ul>
+    </div>
+</nav>
+
+<!-- Section principal con imagen de fondo desde HTML -->
+<header class="position-relative text-white text-center" style="height: 100vh;">
+    <!-- Imagen de fondo -->
+    <img src="img/Banner.jpg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" style="filter: brightness(30%);"  alt="Fondo de caza">
+    <!-- Contenido encima -->
+    <div class="container h-100 d-flex flex-column justify-content-center align-items-center position-relative z-1"><br></br>
+        <h1 class="display-5 fw-bold mb-4">"Precisión implacable. Poder destructivo sin igual."</h1><br><br>
+        <a href="#" class="btn btn-light mt-3 " >Catalogo</a>
+    </div>
+</header>
+
+<!-- Iconos de productos -->
+<section class="text-center my-5 bg-light">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col">
+                <i class="bi bi-airplane fs-1" ></i>
+                <p>Avances</p>
+            </div>
+            <div class="col">
+                <i class="bi bi-bar-chart-fill fs-1" fs-1"></i>
+                <p>Alianzas</p>
+            </div>
+            <div class="col">
+                <i class="bi bi-binoculars fs-1 "></i>
+                <p>Vision</p>
+            </div>
+            <div class="col">
+                <i class="bi bi-globe-americas fs-1"></i>
+                <p>Mision</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Products Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Modelos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+      <!-- F-22 Raptor -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/f-22.jpg" class="card-img-top" alt="F-22 Raptor">
+          <div class="card-body">
+            <h3 class="card-title">F-22 Raptor</h3>
+            <p class="card-text">$125,000,000.00</p>
+            <a href="#" class="btn btn-outline-dark btn-sm">Especificaciones</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sukhoi Su-57 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="/img/su-57.jpg" class="card-img-top" alt="Sukhoi Su-57">
+          <div class="card-body">
+            <h3 class="card-title">Sukhoi Su-57</h3>
+            <p class="card-text">$80,000,000.00</p>
+            <a href="#" class="btn btn-outline-dark btn-sm">Especificaciones</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- B-2 Spirit -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="/img/B-2_Spirits.jpg" class="card-img-top" alt="B-2 Spirit">
+          <div class="card-body">
+            <h3 class="card-title">B-2 Spirit</h3>
+            <p class="card-text">$2,130,000,000.00</p>
+            <a href="#" class="btn btn-outline-dark btn-sm">Especificaciones</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lockheed SR-71 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="/img/Lockheed_SR-71_Blackbird.jpg" class="card-img-top" alt="Lockheed SR-71">
+          <div class="card-body">
+            <h3 class="card-title">Lockheed SR-71</h3>
+            <p class="card-text">$200,000,000.00</p>
+            <a href="#" class="btn btn-outline-dark btn-sm">Especificaciones</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Testimonials Section -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Personal Calificados</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="testimonial-card text-center p-4 bg-white rounded shadow-sm">
+                    <img src="/img/person1.jpg" alt="Cliente John" class="testimonial-img mb-3 rounded-circle" width="80">
+                    <p class="mb-3">Ingeniero Aeroespacial</p>
+                    <h5 class="mb-0">Alex Morales<span class="text-warning">★★★★★</span></h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial-card text-center p-4 bg-white rounded shadow-sm">
+                    <img src="/img/person2.jpg" alt="Cliente Ariana" class="testimonial-img mb-3 rounded-circle" width="80">
+                    <p class="mb-3">Ingeniera de Sistemas Aviónicos</p>
+                    <h5 class="mb-0">Camila Romero <span class="text-warning">★★★★★</span></h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial-card text-center p-4 bg-white rounded shadow-sm">
+                    <img src="/img/person3.jpg" alt="Cliente Yanke" class="testimonial-img mb-3 rounded-circle" width="80">
+                    <p class="mb-3">Ingeniero de Propulsión</p>
+                    <h5 class="mb-0">Raul Gonzales<span class="text-warning">★★★★★</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">En constante desarrollo con:</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="testimonial-card text-center p-4 bg-white rounded shadow-sm">
+            <img src="./img/person4.jpg" alt="Cliente Jane" class="testimonial-img mb-3">
+            <p>Ingeniero de Sistemas de Armas</p>
+            <h6 class="mb-0">- Enzo Reyes <span class="text-warning">★★★★★</span></h6>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card text-center p-4 bg-white rounded shadow-sm">
+            <img src="./img/person5.jpg" alt="Cliente John" class="testimonial-img mb-3">
+            <p>Especialista en Stealth Technology</p>
+            <h6 class="mb-0">Isabel Castillo<span class="text-warning">★★★★★</span></h6>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card text-center p-4 bg-white rounded shadow-sm">
+            <img src="./img/person6.jpg" alt="Cliente Ana" class="testimonial-img mb-3">
+            <p>Ingeniero de Ciberseguridad Aviónica</p>
+            <h6 class="mb-0">- Yahir Romero <span class="text-warning">★★★★★</span></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    
+    
+    <!-- Sección de boletín con descuento -->
+    <section class="newsletter py-5 text-center">
+      <div class="container">
+        <h3>¡Únete y recibe 15% de descuento!</h3>
+        <p>Suscríbete a nuestro boletín para recibir tu código.</p>
+        <div class="input-group w-50 mx-auto">
+          <input type="email" class="form-control" placeholder="Correo electrónico">
+          <button class="btn btn-dark">Suscribirse</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <h5>Zephyrnaut</h5>
+            <p>© 2025 Zephyrnaut</p>
+          </div>
+          <div class="col-md">
+            <h6>Redes Sociales</h6>
+            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+  

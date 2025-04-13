@@ -1,0 +1,53 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(29, 31, 37);
+    font-weight: bold;
+
+}
+
+.hero{
+    height: 400px;
+    padding: 60px 0;
+    position: relative;
+}
+
+.hero .bg-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    z-index:0;
+    opacity: 0.5;
+}
+
+
+.hero.z-1{
+    z-index: 1;
+}
+
+.card img{
+    object-fit: cover;
+    height: 200px;
+   
+    
+
+}
+
+.testimonial-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(29, 31, 37);
+}
+
+.newsletter{
+    background-color: rgb(29, 31, 37);
+
+}
+
+footer a{
+    text-decoration: none;
+}
