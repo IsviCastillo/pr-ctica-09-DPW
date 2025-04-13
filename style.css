@@ -35,6 +35,15 @@ body{
 
 }
 
+.testimonial-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    padding: 20px;
+    flex-wrap: wrap; 
+}
+
 .testimonial-img{
     width: 100px;
     height: 100px;
