@@ -41,7 +41,8 @@ body{
     align-items: center;
     gap: 20px; 
     padding: 20px;
-    flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: center;
 }
 
 .testimonial-img{
@@ -51,7 +52,7 @@ body{
     border-radius: 50%;
     border: 3px solid rgb(29, 31, 37);
     display:flex;
-    overflow: hidden;
+
     
 }
 
